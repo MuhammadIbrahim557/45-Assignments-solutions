@@ -1,0 +1,8 @@
+node_modules/
+//Storing few names in an array called names below.
+let names: string[] = [ `Imran Ali`, `Asmat bhutto`, `Musadiq shah`, 'Jahangir chandio']
+
+// Printing each person's name by accessing each element in the list, one at a time below
+for (let i = 0; i < names.length; i++){
+    console.log(names[i]);
+}
