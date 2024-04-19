@@ -1,61 +1,36 @@
 // Creating an array of five places 
-let placesToVist:string[] = ["Saudi arab", "China", "India", "Oman","America"];
-// Showing original order
-console.log("Original order:", placesToVist);
+  let places: string[] = ["Saudi arab", "China", "India", "Oman","America"];
 
-// Printing Alphabatical order
-console.log("Alphabatical order:", [...placesToVist.reverse()].sort());
-//Showing the original array order
-console.log("Original order:", placesToVist);
+// Creating an array of five places 
+  console.log("Original Order:", places);
+  
+  
+  // Printing Alphabatical order without modifying the actual list
+  console.log("Alphabetical Order:");
+  console.log([...places].sort());
+  
+ //Showing the original array order
+  console.log("Array Still in Original Order:", places);
+ 
 
-//Reversing the array order list
-console.log("Reversed order", placesToVist.reverse());
-// Printing again original array order
-console.log("Original order:", placesToVist);
+//Reversing the array order list without changing the order of the original list
+  console.log("Reverse Alphabetical Order:");
+  console.log([...places].sort().reverse());
+  
 
-//Reversing the array order list
-console.log("Reversed order:", placesToVist.reverse());
-// Original array order list
-console.log(" Original order:", placesToVist);
-
-// Sort the array in alphabatical order
-console.log("Sorted array order:", placesToVist.sort());
+ // Original array order list
+  console.log("Array Still in Original Order:", places);
+  
+  // Reversing the order of the list
+  places.reverse();
+  
 // Showing that its order has been changed
-console.log(" Original order:", placesToVist);
+  console.log("Reversed Order:", places);
+ 
 
-// Sort the array in reverse alphabetical order
-console.log("Sorted array in reverse alphabatical order", placesToVist.sort().reverse);
-// Showing the original array 
-console.log("Original array order:", placesToVist);
+  // Reverse the order of the list again to bring it back to its original order
+  places.reverse();
+  // Printing the list to show it’s back to its original order.
+  console.log("Back to Original Order:", places);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
