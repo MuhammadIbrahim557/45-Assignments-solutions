@@ -32,5 +32,10 @@
   places.reverse();
   // Printing the list to show it’s back to its original order.
   console.log("Back to Original Order:", places);
-
+  // sorting Alphabetical order below
+  places.sort();
+  console.log("Alphabetical order:", places);
+  // reversing alphabetical order 
+  places.reverse();
+  console.log("Reverse alphabetical order:", places);
   
