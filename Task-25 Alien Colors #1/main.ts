@@ -6,6 +6,7 @@ if(alien_color == "Red"){
 
 // Version that fails (no output):
  alien_color = "green";
-if(alien_color == "green"){
+if(alien_color == "Red"){
+    console.log("Congratulations, You just earned 5 points.")
     // No output because condtion has become false
 }
